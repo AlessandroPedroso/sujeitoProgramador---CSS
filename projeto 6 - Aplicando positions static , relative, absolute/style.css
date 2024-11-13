@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*Demonstração box-sizing: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing*/
+}
+
+body{
+    height: 180vh;
+}
+
+
+.container{
+    background-color: #121212;
+    width: 700px;
+    color:#FFF;
+    margin: auto;
+
+    /*padding: espaçamento interno*/
+
+    padding: 30px;
+    border:5px solid #FF0000; 
+    border-radius: 10px;
+}
+
+/*
+    > 1. Por padrão temos o position Static ou seja estatico
+
+    > 2. Relative elemento é posicionado em relação a sua posição normal. (top,buttom, left, rigth)
+
+    > 3. Absolute: é posicionado em relação ao seu elemento pai mais proximo que possui relative.
+    
+    > 4. Fixed
+    > 5. Sticky
+*/
+
+.area{ /*div pai*/
+    position: relative;
+    width: 650px;
+    height: 500px;
+    border: 5px solid green;
+}
+
+.area-absolute{ /*div filha*/
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 5px solid blue;
+}
+
+
+
