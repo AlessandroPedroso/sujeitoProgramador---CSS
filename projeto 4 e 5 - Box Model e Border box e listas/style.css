@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*Demonstração box-sizing: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing*/
+}
+
+
+.container{
+    background-color: #121212;
+    width: 700px;
+    color:#FFF;
+    margin: auto;
+
+    /*padding: espaçamento interno*/
+
+    padding: 30px;
+    border:5px solid #FF0000; 
+    border-radius: 10px;
+}
+
+.rede-social h2{
+margin-top: 10px;
+text-align: center;
+}
+
+.rede-social ul{
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+
+.rede-social li{
+    margin-bottom: 12px;
+}
+
+.rede-social a {
+    text-decoration: none;
+    color:#000;
+}
+
+.rede-social a:hover{
+    color:#FF0000;
+}
